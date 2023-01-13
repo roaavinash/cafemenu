@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+     height: 100vh;
+     width: 100vw;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  
+
+.main{
+    height: 600px;
+    width: 500px;
+    background-color: #ddb786;
+    padding: 1rem;
+}
+.parent{
+    height: 18%;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   text-align: center;
+}
+.parent2{
+    height: 76%;
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   
+}
+.parent3{
+    height: 10%;
+    width: 100;
+    
+}
+hr{
+    border: 2px solid brown;
+}
+.child1{
+    width: 100%;
+    height: 40%;
+   
+}
+ul{
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    text-align: center;
+    
+}
+.child2{
+    width: 100%;
+    height: 40%;
+   
+}
+.parent3{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+    </style>
+</head>
+
+  
+<body>
+    <div class="main">
+   <div class="parent">
+    <h1>CAMPER CAFE</h1>
+    <P>Est.2022</P>
+   </div><hr>
+    
+   
+   <div class="parent2">
+    <h1>Coffee</h1>
+    <div class="child1">
+        <ul>
+            <li>French Vanilla</li> <li>3.00</li></ul>
+            <ul> <li>Caramel Macchiato</li> <li>3.75</li> </ul>
+            <ul>  <li>Pumkin Spice</li>  <li>3.50</li></ul>
+            <ul> <li>Hazelnut</li> <li>4.00</li> </ul>
+            <ul> <li>Mocha</li> <li>4.25</li>
+        </ul>
+    </div>
+    <h1>Desserts</h1>
+    <div class="child2">
+        <ul>
+            <li>Donut</li> <li>1.50</li></ul>
+            <ul> <li>Charry Pie</li> <li>3.75</li> </ul>
+            <ul>  <li>Cheesecake</li>  <li>3.50</li></ul>
+            <ul> <li>CinnanaRoll</li> <li>4.00</li> </ul>
+            <ul> <li>Cake</li> <li>4.30</li> </ul>
+        
+    </div>
+   </div><hr>
+   <div class="parent3">
+    <h3>Visit our website</h3>
+    <p>123 Free Code Camp Drive</p>
+   </div>
+
+</div>
+
+
+</body>
+</html>
